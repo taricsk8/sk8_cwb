@@ -48,6 +48,10 @@ section {
     margin-bottom: 30px;
 }
 
+section p {
+    color: black;
+}
+
 footer {
     background-color: #f00000;
     color: #fff;
