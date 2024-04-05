@@ -1,12 +1,10 @@
 /* Estilos gerais */
-
 .permanent-marker-regular {
     font-family: "Permanent Marker", cursive;
     font-weight: 400;
     font-style: normal;
-  }
+}
 
-  
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -58,10 +56,9 @@ footer {
 }
 
 /* Estilos específicos */
-
 h1 {
     margin: 0;
-    font-size: 80px;
+    font-size: 50px;
 }
 
 h2 {
@@ -84,4 +81,19 @@ a:hover {
 img {
     width: 80%;
     border-radius: 20px;
+}
+
+/* Adaptações para dispositivos móveis */
+@media only screen and (max-width: 600px) {
+    header {
+        height: auto;
+    }
+    
+    h1 {
+        font-size: 30px;
+    }
+    
+    img {
+        width: 100%;
+    }
 }
